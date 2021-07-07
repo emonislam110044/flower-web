@@ -1,97 +1,139 @@
-.font{
-    font-family: 'Noto Sans SC', sans-serif;
-}
-            .section-1{}
-
-            #heading_font{
-                
-                
-            }
-
-            #heading_margin-1{
-                margin-left: 135px;
-
-            }
-            #yello_color{
-                margin-left: 10%;
-                color: yellowgreen;
-            }
-            #heading_margin{
-                margin-left: 20% ;
-                width: 50%;
-                
-                 
-                
-              
-            }
-            #pra_color{
-                color: gray;
-                text-align: justify;
-                margin-left:10%;
-                margin-right:10%;
-                padding: 10px;
-            }
-            #middel{
-                text-align: center;
-            }
-            #middel span{
-                color: orange;
-            }
-
+ body{
+     margin: 0px;
+     background-color: rgb(223, 196, 128);
+      
+ }
+  
  
+ .section-head{
+     
+     color: white;
+     background-image: url(photo/Project\ Cover4.png);
+     background-repeat: no-repeat;
+     margin: 5px;
+     padding: 14px;
+    height:300px;
+      
+ }
+ #head-1{
+     text-align: center;
+     margin-top: 80px;
+     font-size: 50px;
+ }
+ #head-2{
+    text-align: center;
+     font-size: 20px;
+     margin-top:10px;
+ }
+ #head-01{
+     background-color: grey;
+     border-radius: 8px;
+     text-align: center;
+     border: 2px solid gray;
+     margin: 30px 40px;
+     padding: 25px 15px;
+ }
 
+ #button-1{
+    margin-top: 10px;
+    background:none;
+    padding: 10px;
+    border: 1px solid blue;
+    border-radius:4px ;
+    color: cornsilk;
+    transition: .8s;
+ }
+ #button-1:hover{
+    color:black;
+    background-color: blanchedalmond;
+ }
 
-
-            .section-2{
-                display: flex;
-            }
-            .pra_size{
-                text-align: justify;
-                width: 70%;
-                height:40%;
-                margin-left: 50px;
-
-            }
-            .image-1{
-                width: 300px;
-                margin:50px 50px 0px 50px;
-            }
-            .heading_aling{ 
-                margin-left: 50px;
-                 
-            }
+ .card{
+     background-color:burlywood ;
+     width: 200px;
+     border: 1px solid gray;
+     padding: 10px;
+     box-shadow: 10px 10px 10px gray;
+     margin-left: 60px;
+     margin-top: 50px;
+     border-radius: 8px;
+ }
+ #image img{
+     width: 100%;
+     border-radius: 8px;
+ }
  
-
-#pink_color{
-    
-    color: hotpink;
+ #display{
+ display: flex; 
+}
+#button-2{
+    margin-left: 550px;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    background:none;
+   padding: 20px 30px;
+   border: 3px solid blue;
+   border-radius:4px ;
+   color:black;
+   transition: .8s;
+}
+#button-2:hover{
+   color:blueviolet;
+   background-color:rgb(14, 194, 194);
+}
+#order{
+    background: none;
+    color: blueviolet;
+    border: 1px solid black;
+    border-radius: 2px;
+    margin: 2px 1px;
+    padding: 2px 3px;
+    transition: .8s;
 
 }
-#heading-3{
-    margin-top: 50px;
-    margin-bottom: 300px;
-    text-align: center ;
+#order:hover {
+    color: blue;
+    background-color:darkgoldenrod;
 }
-.section_all{
+#section-2{
     display: flex;
+     
 }
-.pera_all{
+#image-middel img{
+    width: 700px; 
+    height:510px ;
+}
+#middel{
+    background-image: url(photo/backgroun-2.jpg);
+    width: 550px;
+    border-left: 1px solid white;
+    margin-bottom: 04px;
+
+}
+#middel-01{
+    margin-top:90px;
+ text-align: center;
+ font-size: 20px;
+}
+#middel-02{
+    margin-top:20px;
     text-align: justify;
-    width: 70%;
-    height:50% ;
-    margin-left:110px ;
-    box-shadow: 20px 10px 10px gray;
-    margin: 15px 0px 15px 110px ;
-    padding: 20px;
+ text-align: center;
+ font-size: 15px;
+ font-weight: 900;
 }
-#headind_last{
-    margin-left:130px ;
-}
-#last_photo{
-    width: 500px;
-    margin-bottom:70px ;
+#shop-summur-collection{
+    margin-left: 190px;
+    margin-top: 20px;
+    border: 2px solid black;
+    padding: 15px 30px;
+    background:none;
+    font-weight: 800;
+     transition: .5s;
+    
 }
 
-
-
-            
+#shop-summur-collection:hover{
+    color: #fff;
+     background-image: linear-gradient(rgba(255, 192, 203, 0.795),hotpink );
+}
