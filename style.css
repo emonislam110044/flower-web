@@ -1,9 +1,48 @@
  body{
      margin: 0px;
      background-color: rgb(223, 196, 128);
+     font-family: 'Source Sans Pro', sans-serif;
       
  }
+ #back-color{
+     background-image: url(photo/head-3.jpg);
+     background-repeat: no-repeat;
+ }
+ #head-button{
+     text-align: right;
+     margin: 20px;
+
+ }
+ #div-000{
+     margin: 10px;
+     padding: 12px 27px;
+     background:none ;
+     color:gray;
+     border-radius: 3px;
+     transition: .8s;
+ }
+ #div-000:hover{
+     color: indigo;
+     background-color: cadetblue;
+ }
+ .search-box{
+     margin:10px 0px 10px 10px;
+     border:1px solid black ;
+     width:220px ;
+     border-radius: 5px;
+ }
   
+ #scarch{
+    border-radius: 2px;
+    text-decoration: none;
+    border: 1px solid black;
+    color: black;
+    background: gray  ;
+    font-weight: 600;
+
+   
+ }
+ 
  
  .section-head{
      
@@ -136,4 +175,59 @@
 #shop-summur-collection:hover{
     color: #fff;
      background-image: linear-gradient(rgba(255, 192, 203, 0.795),hotpink );
+}
+
+#orange-color{
+    color:rgb(218, 25, 25) ;
+}
+#section-flx{
+    display: flex;
+    margin: 30px;
+}
+#div-001{
+    text-align: justify;
+    margin-top: 40px;
+    padding: 40px;
+}
+#image001 img{
+    width: 470px;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 10px;
+}
+#flix-section{
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 700;
+}
+#head-001{
+    text-align: center;
+}
+#section-002{
+    display: flex;
+     
+}
+#image-002 img{
+    width: 250px;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right:50px ;
+    margin-bottom: 0px;
+}
+#image-p-002{
+    margin-top: 5px;
+}
+#div-002{
+    margin-left: 50px;
+}
+#ancor-002{
+    display: block;
+    text-decoration: none;
+    margin: 10px 1px ;
+    padding: 1px 2px;
+    color:black;
+    transition: .8s;
+}
+#ancor-002:hover{
+    color: cadetblue;
 }
